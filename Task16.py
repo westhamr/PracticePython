@@ -5,4 +5,5 @@ def decInBin(n):
         decInBin(n//2)
     print(n%2, end=' ')
 num = int(input('Введите число которое нужно перевести = '))
+print(f"Число {num} в двоичной системе это ")
 decInBin(num)
